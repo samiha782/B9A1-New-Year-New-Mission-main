@@ -52,6 +52,7 @@
 }
 #new-year-pic {
   height: 48vh;
+  padding-bottom: 100px;
 }
 #off {
   color: #f00;
@@ -80,4 +81,50 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+}
+.mid-party {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(7, 2, 17, 1),
+      rgba(7, 2, 17, 0)
+    ),
+    url('../resources/Vectorrr.png');
+  background-repeat: no-repeat;
+  border-radius: 16px;
+  background-size: cover;
+  background-position: bottom center;
+  height: 80vh;
+  color: #fff;
+  color: rgba(242, 246, 249);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.welcome-section {
+  padding-left: 50px;
+}
+#welcome {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 44px;
+  font-weight: 900;
+  /* line-height: 78px; */
+  letter-spacing: 6.04px;
+}
+#party-paragraph {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 12px;
+}
+.btn {
+  color: white;
+  background-color: transparent;
+  border-radius: 0px;
+  border: none;
+  padding-left: 40px;
+}
+.group-img {
+  /* width: 90%; */
+  height: 400px;
+  padding-right: 50px;
 }
