@@ -305,7 +305,44 @@ img {
   font-style: normal;
   font-weight: 500;
 }
+.web-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2px;
+}
 #web {
   color: #fff;
   padding-top: 15px;
+  width: 24px;
+  height: 24px;
+}
+#h-line1 {
+  width: 980px;
+  height: 0.1px;
+  margin-left: 65px;
+  margin-top: 30px;
+}
+.social {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding-top: 10px;
+}
+.social > img {
+  width: 54px;
+  height: 54px;
+}
+#f-id {
+  display: flex;
+}
+.p-tag {
+  color: white;
+  margin-left: 70px;
+  margin-top: 30px;
+}
+.h-tag {
+  color: white;
+  margin-top: 30px;
+  padding-left: 700px;
 }
