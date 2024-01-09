@@ -105,7 +105,8 @@
 #ellipse {
   width: 364.844px;
   height: 364.844px;
-  flex-shrink: 0;
+  border-radius: 364.844px;
+  border: 6px solid red;
 }
 .mid-party {
   background-image: linear-gradient(
