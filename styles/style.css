@@ -91,6 +91,22 @@
   font-weight: 600;
   line-height: normal;
 }
+/* ///////////// */
+.comming-soon {
+}
+.c-div {
+  display: flex;
+  width: 1000px;
+  height: 450px;
+  padding: 20px;
+}
+.p-div {
+}
+#ellipse {
+  width: 364.844px;
+  height: 364.844px;
+  flex-shrink: 0;
+}
 .mid-party {
   background-image: linear-gradient(
       to bottom,
